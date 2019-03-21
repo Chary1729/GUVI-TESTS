@@ -1,4 +1,9 @@
 x=int(input())
 while(x>0):
-  print("Hello")
-  x=x-1
+  if(x==0):
+    print(" ")
+  else:
+    print("Hello")
+    x=x-1
+
+  
